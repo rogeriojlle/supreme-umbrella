@@ -10,8 +10,7 @@ interface Task {
   isComplete: boolean;
 }
 
-const generateNewId = () =>
-  parseInt(crypto.getRandomValues(new Uint8Array(3)).join(''));
+const generateNewId = () => Math.floor(Math.random() * 100000);
 
 export function TaskList() {
   const [tasks, setTasks] = useState<Task[]>([]);
