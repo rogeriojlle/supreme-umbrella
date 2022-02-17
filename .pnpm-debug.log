@@ -1,0 +1,23 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "not found: intall",
+      "code": "ENOENT",
+      "stack": "Error: not found: intall\n    at getNotFoundError (/usr/local/pnpm-global/5/node_modules/.pnpm/pnpm@6.31.0/node_modules/pnpm/dist/pnpm.cjs:41555:51)\n    at Function.whichSync [as sync] (/usr/local/pnpm-global/5/node_modules/.pnpm/pnpm@6.31.0/node_modules/pnpm/dist/pnpm.cjs:41632:13)\n    at getCommandAbsolutePathSync (/usr/local/pnpm-global/5/node_modules/.pnpm/pnpm@6.31.0/node_modules/pnpm/dist/pnpm.cjs:43197:44)\n    at default_1 (/usr/local/pnpm-global/5/node_modules/.pnpm/pnpm@6.31.0/node_modules/pnpm/dist/pnpm.cjs:43206:32)\n    at /usr/local/pnpm-global/5/node_modules/.pnpm/pnpm@6.31.0/node_modules/pnpm/dist/pnpm.cjs:178093:39"
+    }
+  },
+  "2 error pnpm": {
+    "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+    "prefix": "/run/media/rogerio/07a2b1f4-bc2e-4693-be9d-0f809c02d6bc/projetos/nodejs/supreme-umbrella",
+    "err": {
+      "name": "pnpm",
+      "message": "not found: intall",
+      "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+      "stack": "Error: not found: intall\n    at getNotFoundError (/usr/local/pnpm-global/5/node_modules/.pnpm/pnpm@6.31.0/node_modules/pnpm/dist/pnpm.cjs:41555:51)\n    at Function.whichSync [as sync] (/usr/local/pnpm-global/5/node_modules/.pnpm/pnpm@6.31.0/node_modules/pnpm/dist/pnpm.cjs:41632:13)\n    at getCommandAbsolutePathSync (/usr/local/pnpm-global/5/node_modules/.pnpm/pnpm@6.31.0/node_modules/pnpm/dist/pnpm.cjs:43197:44)\n    at default_1 (/usr/local/pnpm-global/5/node_modules/.pnpm/pnpm@6.31.0/node_modules/pnpm/dist/pnpm.cjs:43206:32)\n    at /usr/local/pnpm-global/5/node_modules/.pnpm/pnpm@6.31.0/node_modules/pnpm/dist/pnpm.cjs:178093:39"
+    }
+  }
+}
